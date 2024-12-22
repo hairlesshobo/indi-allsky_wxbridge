@@ -1,0 +1,15 @@
+{
+	"allsky_host": "localhost",
+	"allsky_port": 1883,
+	"allsky_client_id": "indi-allsky_wxbridge",
+	"allsky_username": "wxbridge",
+	"allsky_password": "pass1234",
+	"allsky_topic": "weather/",
+	"wx_host": "weewx",
+	"wx_port": 1883,
+	"wx_client_id": "indi-allsky_wxbridge",
+	"wx_username": "",
+	"wx_password": "",
+	"wx_topic": "weather/loop"
+}
+
