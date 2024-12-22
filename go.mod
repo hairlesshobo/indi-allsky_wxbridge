@@ -1,4 +1,4 @@
-module wxbridge
+module indi-allsky_wxbridge
 
 go 1.19
 

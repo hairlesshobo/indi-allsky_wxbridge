@@ -1,0 +1,15 @@
+[Unit]
+Description=indi-allsky_wxbridge
+After=multi-user.target
+
+[Service]
+ExecStart=/home/user/indi-allsky_wxbridge/wxbridge /home/user/indi-allsky_wxbridge/config.json
+Type=simple
+User=[insert user here]
+Group=[insert group here]
+Restart=always
+
+
+[Install]
+WantedBy=default.target
+RequiredBy=network.target

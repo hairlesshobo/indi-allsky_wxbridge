@@ -1,4 +1,4 @@
-package main
+package model
 
 type WeewxLoopPayload struct {
 	DateTime             string `json:"dateTime"`
@@ -41,7 +41,6 @@ type WeewxLoopPayload struct {
 	RainRateInchPerHour  string `json:"rainRate_inch_per_hour"`
 	WindchillF           string `json:"windchill_F"`
 }
-
 
 type Config struct {
 	AllskyHost     string `json:"allsky_host"`
